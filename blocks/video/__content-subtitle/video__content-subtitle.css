@@ -1,0 +1,28 @@
+.video__content-subtitle {     
+    max-width: 640px;  
+    font-size: 24px;
+    line-height: 35px;  
+    margin-bottom: 72px; 
+}
+
+
+
+@media screen and (max-width: 850px) {
+    .video__content-subtitle {       
+        width: 94%;       
+        margin-top: 24px;
+        line-height: 144%; 
+        margin-bottom: 56px; 
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .video__content-subtitle { 
+        width: 94%;       
+        font-size: 16px;   
+        line-height: 144%;    
+        margin-top: 16px;
+        margin-bottom: 24px; 
+    }
+}

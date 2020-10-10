@@ -1,0 +1,41 @@
+.content-subtitle {
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    margin-top: 48px;
+    max-width: 583px;   
+    font-style: normal;
+    font-family: 'Inter';
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 767px) {
+    .content-subtitle {
+        font-size: 24px;             
+        line-height: 110%;  
+        width: auto;
+        margin-top: 8%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .content-subtitle {
+        font-size: 20px;       
+        line-height: 120%;
+        width: auto;      
+        margin-top: 8%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .content-subtitle {
+        font-size: 16px;
+        line-height: 130%;       
+        width: auto;        
+        margin-top: 8%;
+    }
+}

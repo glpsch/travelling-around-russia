@@ -1,0 +1,37 @@
+.lead__image {
+    margin-top: 78px;
+    width: 100%; 
+    max-width: 984px;  
+    position: relative;
+}
+
+.lead__image__main {
+    margin: 0 auto;    
+    width: 100%;
+    max-width: 984px;       
+    object-fit: cover;      
+}
+
+.lead__image__vector {    
+    z-index: 2;    
+    width: 95.22%;
+    height: auto;
+    max-width: 937px;    
+    position: absolute;    
+    top: 22.8%;   
+    left: 2.48%;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .lead__image {
+        margin-top: 65px;         
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .lead__image  {
+        margin-top: 32px;         
+    }
+}

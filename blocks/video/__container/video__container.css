@@ -1,0 +1,48 @@
+.video__container {
+    width:100%; 
+    max-width: 1184px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 102px;    
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .video__container {
+        width: 86%;       
+}
+}
+
+
+@media screen and (max-width: 1024px) {
+    .video__container {
+        width: 90%;
+        
+}
+}
+
+@media screen and (max-width: 850px) {
+    .video__container {
+        width: 94%;
+        
+}
+}
+
+
+@media screen and (max-width: 650px) {
+    .video__container {
+        width: 94%;
+        flex-direction: column;
+        padding-bottom: 82px; 
+     
+}
+}
+
+@media screen and (max-width: 450px) {
+    .video__container {        
+        padding-bottom: 64px; 
+     
+}
+}

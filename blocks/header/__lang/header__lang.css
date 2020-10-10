@@ -1,0 +1,39 @@
+.header__lang {
+    display: inline-block;
+    /* width: 30px;     */
+    font-style: normal;
+    font-family: 'Inter';
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: right;
+    color: #FFFFFF;    
+ }
+
+ .header__lang:first-of-type {
+    border-bottom: 1px solid;
+    padding-bottom: 2px;
+    margin-right: 16px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .header__lang {
+        font-size: 22px;             
+        line-height: 90%;  
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header__lang {
+        font-size: 20px;       
+        line-height: 90%;       
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header__lang {
+        font-size: 18px;
+        line-height: 90%;                
+    }
+}

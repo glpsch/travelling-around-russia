@@ -1,0 +1,12 @@
+@import url('../content-title/content-title.css');
+@import url('../content-subtitle/content-subtitle.css');
+
+
+.content {
+    width: 100%;
+    max-width: 1184px;
+    margin: auto;    
+    color: #FFFFFF;
+}
+
+
