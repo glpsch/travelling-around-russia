@@ -7,7 +7,7 @@ module.exports = {
   entry: { main: './src/index.js' },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name].[chunkhash].js'
+    filename: '[name].[hash].js'
   },
 
 // указали путь к файлу, в квадратных скобках куда вставлять сгенерированный хеш
@@ -23,7 +23,21 @@ module.exports = {
       {
         test: /\.css$/,
         use:  [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader'] // добавили минификацию CSS
-      }
+      },    
+            {
+                test: /\.(png|jp?g|gif|ico|svg)$/i,
+                use: [
+                    'file-loader?name=./images/[name].[ext]',
+                    {
+                        loader: 'image-webpack-loader',
+                        options: {}
+                    },
+                ]
+            },
+            {
+                test: /\.(eot|ttf|woff|woff2)$/,
+                loader: 'file-loader?name=./vendor/[name].[ext]'
+            }
     ]
   },
   plugins: [ 
