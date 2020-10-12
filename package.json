@@ -9,6 +9,10 @@
     "dev": "webpack-dev-server --mode development --hot --open --watch",
     "deploy": "gh-pages -d dist"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glpsch/travelling-around-russia.git"
+  },
   "author": "galina psch",
   "license": "ISC",
   "devDependencies": {
