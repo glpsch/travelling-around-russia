@@ -1,0 +1,67 @@
+@import url('./vendor/normalize.css');
+@import url('./blocks/header/header.css');
+@import url('./blocks/content/content.css');
+@import url('./blocks/footer/footer.css');
+@import url('./blocks/lead/lead.css');
+@import url('./blocks/intro/intro.css');
+@import url('./blocks/photo-grid/photo-grid.css');
+@import url('./blocks/places/places.css');
+@import url('./blocks/video/video.css');
+@import url('./blocks/comments/comments.css');
+@import url('./blocks/cover/cover.css');
+
+
+
+@font-face {
+    src: url('./fonts/Inter/Inter-Regular.woff') format('woff'),
+    url('./fonts/Inter/Inter-Regular.woff2') format('woff2');
+    font-family: 'Inter';
+}
+
+@font-face {
+    src: url('./fonts/Inter/Inter-Black.woff') format('woff'),
+    url('./fonts/Inter/Inter-Black.woff2') format('woff2');
+    font-family: 'Inter';
+    font-weight: 900;
+}
+
+@font-face {
+    src: url('./fonts/Inter/Inter-Bold.woff') format('woff'),
+    url('./fonts/Inter/Inter-Bold.woff2') format('woff2');
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+
+
+.page {    
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;    
+    width: 100%;    
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Inter', Arial, sans-serif;
+    background-color: #2A2C2F;
+    overflow: hidden;
+}
+
+.link {    
+    opacity: 1;
+    transition: opacity 1.5s ease;
+    text-decoration: none;
+    color: #FFFFFF;
+} 
+
+.link:hover {
+    opacity: 0.7;
+}
+
+.span-br {
+    display: block;
+}
+
+.span-bold {
+    font-weight: bold;
+ } 
+
+
