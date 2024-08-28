@@ -2,4 +2,4 @@
 
 An adaptive web page showcasing HTML, CSS and BEM skills
 
-### [Open travelling-around on GitHub Pages](https://glpsch.github.io/travelling-around-russia)
+### [Open travelling-around-russia on GitHub Pages](https://glpsch.github.io/travelling-around-russia)
