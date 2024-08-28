@@ -1,5 +1,5 @@
-# travelling-around-russia
+# Travelling around Russia
 
 An adaptive web page showcasing HTML, CSS and BEM skills
 
-### https://glpsch.github.io/travelling-around-russia
+### [Open travelling-around on GitHub Pages](https://glpsch.github.io/travelling-around)
